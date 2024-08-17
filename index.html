@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Online shop</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+            align-items: center;
+            padding: 20px;
+        }
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .grid-container .text-content {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: black;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="hib"><i>ONLINE SHOP</i></h1>
+    <!--barre de recherche-->
+    <form action="/recherche" method="get" class="rec">
+        <label for="search">Recherche</label>
+        <input type="search" name="query" aria-placeholder="taper votre recherche">
+        <button type="submit"><a href="recherche">Recherche</a></button>
+    </form>
+    <nav class="navbar">
+        <a href="acceuil">Acceuil</a>
+        <a href="commande">Commande</a>
+        <a href="produit">produits</a>
+        <a href="Aide">Aide</a>
+    </nav>
+    <div class="grid-container"><img src="https://th.bing.com/th/id/OIP.l8ZZiab9CFzhOsnjjSma-gHaED?w=315&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" id="image" alt="">
+        <div class="text-content">
+            <p><a href="vetement">Vetement de sport</a></p>
+            <p><a href="chaussure">chaussure de sport</a></p>
+            <p><a href="sac">Sac</a></p>
+            <p><a href="appareil">Appareil menage</a></p>
+            <p><a href="machine">machine</a></p>
+            <p><a href="mobilier">mobilier</a></p>
+            <p><a href="peinture">peinture</a></p>
+        </div>
+    </div>
+    <br>
+    <article class="card">
+        <header>
+            <h2>vetements </h2>
+        </header>
+        <img src="https://th.bing.com/th/id/OIP.FM9SWlT3aurWuEAvVzDJHwHaEO?w=292&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" style="width: 70%;" alt="">
+        <div>
+            <br>
+            <p><i> prets a porté de marque avec des prix exceptionnel de 5000Fr </i></p>
+        </div>
+        <footer><button><a href="commander">Commander maintenant</a></button></footer>
+    </article>
+    <article class="card">
+        <header>
+            <h2>Materiel electronique </h2>
+        </header>
+        <img src="https://th.bing.com/th/id/OIP.vg3eAJrS98mZxa9WlY6hUwHaE5?rs=1&pid=ImgDetMain" style="width: 70%;" alt="">
+        <div>
+            <br>
+            <p style="display: block;"><i>Des ordinateur et des telephone portables en promotions faite vite vos commande avant que les produits s'eppuisent</i></p>
+        </div>
+        <footer><button><a href="commande">Commander des maintenant</a></button></footer>
+    </article>
+    <article class="card">
+        <header>
+            <h2>Chaussure de sport</h2>
+        </header>
+        <img src="https://th.bing.com/th/id/OIP.2LdC2iw9Yp_8KGBD1obRxAHaHM?w=183&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" style="width: 60%;" alt="">
+        <div>
+            <br>
+            <p><i>Des chaussure de sport tres confortable a des prix tres abordable </i></p>
+        </div>
+        <footer><button><a href="commande"> Commander maintenant</a></button></footer>
+    </article>
+    <article class="card">
+        <header>
+            <h2>Mobilier de maison</h2>
+        </header>
+        <img src="https://th.bing.com/th/id/OIP.u0pvHAoq1Zzclx7MDV34MAHaE3?w=296&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+        <div>
+            <br>
+            <p><i>Des meubles des fauteuilles des vases... tres attrayante pour votre maison a la prix tres abordables</i></p>
+        </div>
+        <footer><button style="justify-content: center;><a href="commande" > Commander maintenant</a></button></footer>
+    </article>
+        <br>
+        <br>
+        <p><i>bienvenue chez ONLINE SHOP.Passionné par la qualité et l'innovation nous selectionnons avec soin chaque article pour vous offrir ce qui se fait de mieux. Chez ONLINE SHOP notre mission est simple: offrir des produits exceptionnels qui inspirent et ameliorent votre quotidien. nous croyons que chaque achat doit etre une source de satisfaction, c'est pourquoi nous mettons un point d'honneur a offrir une selection de qualité, accompagnée d'un service irreprochable. nous offrons aussi une livraison rapide effiable et efficace dans tout l'ettendue du territoire senegal</i></p>
+        <!--commentaire-->
+        <li><a href="commentaire" style="font-size: x-large; text-align: end;">commentaire</a></li>
+        <br>
+        <div class="cer">
+            <p><a href="article" style="color: whitesmoke; font-size: xx-large;">plus Article</a></p>
+        </div>
+        <div class="cer">
+            <p><a href="voiture" style="color: whitesmoke; font-size: xx-large;">Voiture</a></p>
+        </div>
+        <div class="cer">
+            <p><a href="fenetre" style="color: whitesmoke; font-size: xx-large;">television</a></p>
+        </div>
+        <br>
+        <br>
+        <br>
+       <div> <img src="https://th.bing.com/th/id/OIP.de0XI1bRlTz56XGHOlvSpQHaFf?pid=ImgDet&w=208&h=154&c=7&dpr=1.5" id="im" alt="">
+             <a href="information" class="INFO">information supplementaire au 33 856 76 89</a>  
+       </div>  
+</body>
+</html>
